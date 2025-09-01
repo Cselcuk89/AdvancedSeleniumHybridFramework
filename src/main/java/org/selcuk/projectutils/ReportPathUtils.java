@@ -1,5 +1,7 @@
 package org.selcuk.projectutils;
 
+import static org.selcuk.constants.FrameworkConstants.*;
+
 public class ReportPathUtils {
     // private -> We do not want anyone to create the object of this class
     // Private constructor to avoid external instantiation

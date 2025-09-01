@@ -1,5 +1,6 @@
 package org.selcuk.projectutils;
 
+import org.selcuk.projectreports.ExtentLogger;
 import org.testng.Assert;
 
 public class VerificationUtils {

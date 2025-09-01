@@ -1,5 +1,7 @@
 package org.selcuk.projectutils;
 
+import static org.selcuk.constants.FrameworkConstants.*;
+
 public class IconUtils {
     private IconUtils() {
     }

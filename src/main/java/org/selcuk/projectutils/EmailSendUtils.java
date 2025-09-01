@@ -1,5 +1,13 @@
 package org.selcuk.projectutils;
 
+import org.selcuk.constants.FrameworkConstants;
+import org.selcuk.javamailapi.EmailAttachmentsSender;
+
+import javax.mail.MessagingException;
+
+import static org.selcuk.constants.FrameworkConstants.*;
+import static org.selcuk.javamailapi.EmailConfig.*;
+
 public class EmailSendUtils {
     public static void sendEmail(int count_totalTCs, int count_passedTCs, int count_failedTCs, int count_skippedTCs) {
 
